@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DealHound — Black Friday 2026 Deal Finder</title>
+<meta name="description" content="33 real Black Friday 2026 deals, checked today at Amazon, Best Buy, Costco, Dell and Samsung, each with an honest verdict on whether it is really a deal.">
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="./main.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="brand">🐾 DealHound</p>
+    <h1>Black Friday 2026 deal finder</h1>
+    <p class="lede"><span id="total-deals">33</span> real deals, checked today — Fri 27 Nov 2026 — at the store
+    or in a deals source that names the store. Every card shows its sale price, usual price,
+    discount, check time and source, plus an honest verdict: a true low, a strong price,
+    or a routine sale.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="stats" aria-label="Sale summary"></section>
+
+  <section class="controls" aria-label="Search and filters">
+    <label class="search-label">Search deals
+      <input id="search" type="search" placeholder="Try “AirPods”, “OLED”, “vacuum”…">
+    </label>
+    <label>Category
+      <select id="category"></select>
+    </label>
+    <label>Store
+      <select id="store"></select>
+    </label>
+    <label>Discount
+      <select id="discount"></select>
+    </label>
+    <label>Sort by
+      <select id="sort">
+        <option value="discount">Biggest discount</option>
+        <option value="newlow">New lows first</option>
+        <option value="saving">Biggest saving</option>
+        <option value="price-asc">Lowest price</option>
+        <option value="price-desc">Highest price</option>
+      </select>
+    </label>
+    <fieldset class="verdict-filter">
+      <legend>Verdict</legend>
+      <label><input type="radio" name="verdict" value="all" checked> All</label>
+      <label><input type="radio" name="verdict" value="NEW LOW"> New lows</label>
+      <label><input type="radio" name="verdict" value="STRONG PRICE"> Strong prices</label>
+      <label><input type="radio" name="verdict" value="ROUTINE SALE"> Routine sales</label>
+    </fieldset>
+    <button id="clear" type="button">Clear filters</button>
+  </section>
+
+  <p id="count" class="count" aria-live="polite"></p>
+  <section id="results" aria-label="Deals"></section>
+  <section id="detail" hidden aria-label="Deal detail"></section>
+
+  <footer class="foot">
+    <p>Prices were read on Black Friday, 27 Nov 2026, at the store named on each card or in
+    the deals source cited there. Prices can change or sell out — the store page is the
+    final word at checkout. DealHound is an independent finder; it is not affiliated with
+    Amazon, Best Buy, Costco, Dell or Samsung.</p>
+  </footer>
+</main>
+</body>
+</html>
