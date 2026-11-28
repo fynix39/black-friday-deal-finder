@@ -9,9 +9,9 @@ a static site that helps shoppers find real Black Friday and Cyber Monday 2026 d
 
 ## What it is
 
-DealHound lists **33 deals checked on Black Friday itself, Fri 27 Nov 2026**, across
+DealHound lists **33 deals checked on Sat 28 Nov 2026**, across
 7 categories (Electronics, TVs, Gaming, Home & Kitchen, Beauty, Audio, Smart Home)
-and 5 stores (Amazon, Best Buy, Costco, Dell, Samsung). Every deal card shows:
+and 4 stores (Amazon, Best Buy, Dell, Samsung). Every deal card shows:
 
 - product, store and a link to the product at that store
 - sale price, usual price, discount and the saving in dollars
@@ -32,7 +32,7 @@ and 5 stores (Amazon, Best Buy, Costco, Dell, Samsung). Every deal card shows:
 
 ## How the deals were checked
 
-Each price was read on 27 Nov 2026 at the store named on the card or in a deals
+Each price was read on 28 Nov 2026 at the store named on the card or in a deals
 source that names the store — TechSpot, CNN Underscored, Tom's Guide, Popular
 Science, Product Bible, TechRadar, MacRumors, GamesRadar and others. The source
 is cited on every card. Nothing was invented: no product, store, price or link

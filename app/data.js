@@ -1,14 +1,14 @@
 // Deal data for DealHound — Black Friday 2026.
-// Every price was checked on Sat 28 Nov 2026 at the store named
-// or in a deals source that names the store. "source" is the publication that
-// showed the price today; "checked" is the check time (WIB).
+// Every price was checked on Sat 28 Nov 2026, evening (20:30 WIB), at the
+// store named or in a deals source that names the store. "source" is the
+// publication that showed the price today; "checked" is the check time (WIB).
 // Store links are direct links to the product page at that store, except the
 // Fire TV 4K stick, whose 2026 model has no discoverable product URL — its
 // link is the store's search for the product as a fallback.
 // Verdicts: NEW LOW = lowest price ever tracked; STRONG PRICE = a real cut
 // below the usual price; ROUTINE SALE = a discount that recurs at most sales.
 
-export const CHECKED_LABEL = "Checked 28 Nov 2026, 13:00 WIB";
+export const CHECKED_LABEL = "Checked 28 Nov 2026, 20:30 WIB";
 
 export const DEALS = [
   {
@@ -155,15 +155,15 @@ export const DEALS = [
     source: "Best Buy",
   },
   {
-    id: "arcade1up-sonic",
-    name: "Arcade1Up Sonic the Hedgehog home arcade machine",
-    store: "Costco",
-    url: "https://www.costco.com/p/-/arcade1up-sonic-the-hedgehog-home-arcade-machine/4201024834",
+    id: "logitech-g923",
+    name: "Logitech G923 TRUEFORCE Sim Racing Wheel (PS5/PS4/PC)",
+    store: "Best Buy",
+    url: "https://www.bestbuy.com/product/logitech-g923-trueforce-sim-racing-wheel-and-3-pedal-assembly-for-ps5-ps4-and-pc-gaming-steering-wheel-black/J7H7ZYXYT9/sku/6423223",
     category: "Gaming",
-    sale: 639.99, usual: 639.99,
-    verdict: "ROUTINE SALE",
-    evidence: "Costco's $100-off event ended 22 Nov; price back to $639.99 and out of stock online as of 28 Nov — this deal has expired.",
-    source: "Costco",
+    sale: 249.99, usual: 349.99,
+    verdict: "STRONG PRICE",
+    evidence: "$100 off list at Best Buy's Black Friday sale.",
+    source: "Best Buy",
   },
   {
     id: "dell-xps-13",
@@ -391,7 +391,6 @@ export const STORES = [
   "All stores",
   "Amazon",
   "Best Buy",
-  "Costco",
   "Dell",
   "Samsung",
 ];
