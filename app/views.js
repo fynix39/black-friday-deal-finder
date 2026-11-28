@@ -77,7 +77,7 @@ export function detailHtml(d) {
     '<dt>Verified by</dt><dd>' + esc(d.source) + '</dd>' +
     '</dl>' +
     '<p class="how">How we checked: the price above is the price the cited source showed at ' +
-    esc(d.store) + ' on Black Friday, 27 Nov 2026. Prices can change or sell out — ' +
+    esc(d.store) + ' on Sat 28 Nov 2026. Prices can change or sell out — ' +
     'the store page is the final word at checkout.</p>' +
     '<a class="store-link big" href="' + esc(d.url) + '" target="_blank" rel="noopener">View at ' + esc(d.store) + ' &rarr;</a>' +
     (same.length
